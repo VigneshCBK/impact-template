@@ -105,6 +105,7 @@ color: white;
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    height: 100%;
 }
 
 #double-bttn {
@@ -560,7 +561,7 @@ color: white;
 
 #port-poto {
     left: 0px;
-    top: 10px;
+    /* top: 10px; */
     padding-bottom: 20px;
 }
 
@@ -939,9 +940,7 @@ color: white;
     padding-left: 75px;
 }
 
-.form-control {
-    width: 405px;
-}
+
 
 #con-form {
     padding-top: 20px;
@@ -975,7 +974,7 @@ color: white;
 }
 #footer-info{
     flex: 0 0 auto;
-    width: 41.66666667%;
+    
 }
 #footer-info span{
     font-size: 30px;
@@ -1022,6 +1021,15 @@ color: white;
     position: relative;
     padding-bottom: 12px;
 }
+.con-btn2 a{
+    color: white;
+   text-decoration: none;
+   padding: 10px;
+   background-color:#005b50 ;
+}
+.con-btn2{
+    text-align: center;
+}
 #con-menu ul li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
@@ -1063,7 +1071,7 @@ color: white;
 #con-cont h4{
     font-size: 16px;
     font-weight: bold;
-    position: relative;
+    
     padding-bottom: 12px;
 }
 .copy-right{
