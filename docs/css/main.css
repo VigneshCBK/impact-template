@@ -7,10 +7,10 @@
 .banner h1{
     color:#fff ; font-size: 48px;font-weight: 700; margin-bottom: 20px; margin-top: 80px;
 }
-.row iconbox-flex{
+.row .iconbox-flex{
     position: relative;
 }
-.col-sm-3 again-ico{
+.col-sm-3 .again-ico{
     content: "";
     position: absolute;
   
@@ -51,7 +51,10 @@
     background: #008374;
 }
 .menu-bar ul{
-    list-style:none; display: flex;justify-content: space-evenly; padding: 30px; box-shadow: 15px;
+    list-style:none;
+     display: flex;justify-content: space-evenly; 
+     padding-top: 35px;
+    box-shadow: 15px;
 }
 .menu-bar ul li a{
     text-decoration:none;color: #fff;
@@ -60,7 +63,7 @@
     background-color:#008374 ;
 }
 .banner-sec-1{
-    height: 500px ;
+    height: 350px ;
 }
 .banner-sec-1 p{
     margin-bottom: 30px; color: rgba(255, 255, 255, 0.6);
@@ -68,8 +71,18 @@
 .banner-btn a{
     text-decoration:none ;
 }
-
-
+.navbar-brand{
+    word-spacing: 5px;
+    font-size: 35px;
+   color: white;
+    font-weight: 500;
+}
+.navbar-brand span{
+    color: red;
+}
+.navbar-collapse ul li a{
+    color: white;
+}
 
 
 
@@ -228,7 +241,8 @@ color: white;
 }
 
 .status {
-    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 60px
 }
 
 .number {
@@ -251,10 +265,7 @@ color: white;
     border-bottom: solid 1px rgb(196, 196, 198);
 }
 
-.status img {
-    width: 700px;
-    padding-right: 50px;
-}
+
 
 
 .call-act .container {
@@ -974,7 +985,7 @@ color: white;
 }
 #footer-info{
     flex: 0 0 auto;
-    
+
 }
 #footer-info span{
     font-size: 30px;
@@ -986,9 +997,6 @@ color: white;
     font-size: 14px;
 }
 .foot-ico{
-   
-   
-    width: 400px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 17px;
